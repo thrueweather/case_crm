@@ -1,0 +1,104 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./server/:/var/www/server
+      - ./client/:/var/www/client/
+      - ./config/nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+    links:
+      - server
+      - client
+
+  server:
+    build: ./server/
+    container_name: server
+    working_dir: /var/www/server
+    ports:
+      - $SERVER_PORT:$SERVER_PORT
+    volumes:
+      - ./server/:/var/www/server
+      - ./client/:/var/www/client/
+    command: gunicorn server.wsgi -c gunicorn.conf
+    env_file:
+      - .env
+    environment:
+      - DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
+      - PGHOST=$DATABASE_HOST
+    depends_on:
+      - database
+      - redis
+      - celery
+
+  database:
+    container_name: database
+    image: postgres:latest
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "$DATABASE_PORT:$DATABASE_PORT"
+    volumes:
+      - ./initial.sql:/docker-entrypoint-initdb.d/initial.sql
+
+  client:
+    image: node:latest
+    container_name: client
+    working_dir: /var/www/client/
+    command: yarn start
+    ports:
+      - $CLIENT_PORT:$CLIENT_PORT
+    environment:
+      - REACT_APP_BACKEND_URL=$REACT_APP_BACKEND_URL
+    volumes:
+      - ./server/:/var/www/server
+      - ./client/:/var/www/client/
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "$REDIS_PORT:$REDIS_PORT"
+    privileged: true
+    sysctls:
+      net.core.somaxconn: "511"
+
+  celery:
+    build:
+      context: ./server/
+      dockerfile: Dockerfile
+    container_name: celery
+    working_dir: /var/www/server
+    volumes:
+      - ./server/:/var/www/server
+    command: /bin/bash -c "celery -A server worker --loglevel=info"
+    depends_on:
+      - redis
+      - database
+    env_file:
+      - .env
+    environment:
+      - DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
+      - PGHOST=$DATABASE_HOST
+
+  monitor:
+    build:
+      context: ./server/
+      dockerfile: Dockerfile
+    container_name: monitor
+    working_dir: /var/www/server
+    volumes:
+      - ./server/:/var/www/server
+    command: /bin/bash -c "flower -A server --port=$FLOWER_PORT"
+    env_file:
+      - .env
+    depends_on:
+      - celery
+      - redis
+    ports:
+      - $FLOWER_PORT:$FLOWER_PORT

@@ -1,0 +1,39 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+django = "==2.2.5"
+django-rest-framework = "*"
+celery = "==4.2.2"
+redis = "==3.2.1"
+flower = "==0.9.3"
+django-cors-headers = "==3.1.0"
+pytest = "==4.3.0"
+tornado = "==4.2.0"
+pillow = "==8.4.0"
+django-rest-auth = "*"
+django-allauth = "*"
+django-extensions = "==2.2.1"
+ipython = "*"
+django-extra-fields = "*"
+gunicorn = "*"
+gevent = "*"
+"django-sendgrid-v5" = "*"
+django-multiselectfield = "*"
+python-dateutil = "*"
+"boto3" = "*"
+django-storages = "*"
+coverage = "*"
+pandas = "*"
+openpyxl = "*"
+xlsxwriter = "*"
+reportlab = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,423 @@
+[
+    {
+        "model": "accounts.user",
+        "pk": 1,
+        "fields": {
+            "first_name": "Gentian",
+            "last_name": "Shkembi",
+            "email": "gentian.shkembi@expertmortgageadvisor.com",
+            "company": "2",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "password": "pbkdf2_sha256$150000$QqTfcAWCj2F6$+fMgnSOQHQj5Og3s4rmiLbO3pAh2izPtjD3ybgO8hH0="
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 2,
+        "fields": {
+            "first_name": "Ami",
+            "last_name": "Harris",
+            "email": "ami.harris@expertmortgageadvisor.com",
+            "company": "1",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "password": "pbkdf2_sha256$150000$QqTfcAWCj2F6$+fMgnSOQHQj5Og3s4rmiLbO3pAh2izPtjD3ybgO8hH0="
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 3,
+        "fields": {
+            "first_name": "Gentian",
+            "last_name": "Broker",
+            "email": "gentian.broker@expertmortgageadvisor.com",
+            "company": "2",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "password": "pbkdf2_sha256$150000$QqTfcAWCj2F6$+fMgnSOQHQj5Og3s4rmiLbO3pAh2izPtjD3ybgO8hH0="
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 4,
+        "fields": {
+            "first_name": "Davi",
+            "last_name": "Thakar",
+            "email": "davi.thakar@expertmortgageadvisor.com",
+            "company": "3",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "password": "pbkdf2_sha256$150000$QqTfcAWCj2F6$+fMgnSOQHQj5Og3s4rmiLbO3pAh2izPtjD3ybgO8hH0="
+        }
+    },
+    {
+        "model": "core.address",
+        "pk": 1,
+        "fields": {
+            "create_date": "2021-12-09T12:37:30.318Z",
+            "update_date": "2021-12-09T12:37:30.318Z",
+            "address": "123 Snow Lane",
+            "address2": "Snowhill",
+            "town": "Snowville",
+            "country": "Snowistan",
+            "post_code": "b230as"
+        }
+    },
+    {
+        "model": "core.address",
+        "pk": 2,
+        "fields": {
+            "create_date": "2021-12-06T22:38:39.512Z",
+            "update_date": "2021-12-06T22:38:39.512Z",
+            "address": "test address",
+            "address2": "",
+            "town": "",
+            "country": "",
+            "post_code": "B240AS"
+        }
+    },
+    {
+        "model": "core.address",
+        "pk": 3,
+        "fields": {
+            "create_date": "2021-12-01T20:01:55.362Z",
+            "update_date": "2021-12-01T20:01:55.362Z",
+            "address": "43 Test Avenue",
+            "address2": "",
+            "town": "",
+            "country": "",
+            "post_code": "12345567"
+        }
+    },
+    {
+        "model": "core.address",
+        "pk": 4,
+        "fields": {
+            "create_date": "2021-12-01T20:01:55.362Z",
+            "update_date": "2021-12-01T20:01:55.362Z",
+            "address": "123 Test Avenue",
+            "address2": "",
+            "town": "",
+            "country": "",
+            "post_code": "12345567"
+        }
+    },
+    {
+        "model": "core.customer",
+        "pk": 1,
+        "fields": {
+            "create_date": "2021-12-03T12:47:25.482Z",
+            "update_date": "2021-12-03T15:24:00.623Z",
+            "first_name": "test",
+            "last_name": "test",
+            "email": "lead@lead.com",
+            "address": 1,
+            "mobile_phone": "+380678920154",
+            "age": 43,
+            "gender": 2
+        }
+    },
+    {
+        "model": "core.customer",
+        "pk": 2,
+        "fields": {
+            "create_date": "2021-12-03T14:57:58.395Z",
+            "update_date": "2021-12-03T15:24:09.747Z",
+            "first_name": "David",
+            "last_name": "Test#1",
+            "email": "david1@test.com",
+            "address": 2,
+            "mobile_phone": "+447581434281",
+            "age": 25,
+            "gender": 1
+        }
+    },
+    {
+        "model": "core.customer",
+        "pk": 3,
+        "fields": {
+            "create_date": "2021-12-06T22:38:39.509Z",
+            "update_date": "2021-12-06T22:38:39.513Z",
+            "first_name": "Test",
+            "last_name": "Test1",
+            "email": "test@testeroo.com",
+            "address": 3,
+            "mobile_phone": "+447581434821",
+            "age": 44,
+            "gender": 1
+        }
+    },
+    {
+        "model": "core.customer",
+        "pk": 4,
+        "fields": {
+            "create_date": "2021-12-09T12:38:02.561Z",
+            "update_date": "2021-12-09T12:38:02.561Z",
+            "first_name": "Ash",
+            "last_name": "Singh",
+            "email": "ash.singh@ema.com",
+            "address": 4,
+            "mobile_phone": "07581434264",
+            "age": 22,
+            "gender": 1
+        }
+    },
+    {
+        "model": "core.lead",
+        "pk": 1,
+        "fields": {
+            "create_date": "2021-12-03T15:23:30.974Z",
+            "update_date": "2021-12-03T15:23:30.984Z",
+            "customer": 1,
+            "property_amount": 546.0,
+            "mortgage_amount": 36521.0,
+            "message": "",
+            "active": true,
+            "converted": true,
+            "purchased": true
+        }
+    },
+    {
+        "model": "core.lead",
+        "pk": 2,
+        "fields": {
+            "create_date": "2021-12-03T15:23:30.974Z",
+            "update_date": "2021-12-03T15:23:30.984Z",
+            "customer": 2,
+            "property_amount": 542.0,
+            "mortgage_amount": 34421.0,
+            "message": "",
+            "active": true,
+            "converted": true,
+            "purchased": true
+        }
+    },
+    {
+        "model": "core.lead",
+        "pk": 3,
+        "fields": {
+            "create_date": "2021-12-03T15:23:30.974Z",
+            "update_date": "2021-12-03T15:23:30.984Z",
+            "customer": 3,
+            "property_amount": 34.0,
+            "mortgage_amount": 5555.0,
+            "message": "",
+            "active": true,
+            "converted": true,
+            "purchased": true
+        }
+    },
+    {
+        "model": "core.lead",
+        "pk": 4,
+        "fields": {
+            "create_date": "2021-12-03T15:23:30.974Z",
+            "update_date": "2021-12-03T15:23:30.984Z",
+            "customer": 4,
+            "property_amount": 111.0,
+            "mortgage_amount": 435.0,
+            "message": "",
+            "active": true,
+            "converted": true,
+            "purchased": true
+        }
+    },
+    {
+        "model": "core.deal",
+        "pk": 1,
+        "fields": {
+            "create_date": "2021-12-23T14:12:00.943Z",
+            "update_date": "2021-12-23T14:12:00.943Z",
+            "lead": 1,
+            "status": 25,
+            "status_from": null,
+            "broker": 1,
+            "note": null,
+            "completed": false,
+            "active": true
+        }
+    },
+    {
+        "model": "core.deal",
+        "pk": 2,
+        "fields": {
+            "create_date": "2021-12-23T14:12:00.943Z",
+            "update_date": "2021-12-23T14:12:00.943Z",
+            "lead": 2,
+            "status": 25,
+            "status_from": null,
+            "broker": 2,
+            "note": null,
+            "completed": false,
+            "active": true
+        }
+    },
+    {
+        "model": "core.deal",
+        "pk": 3,
+        "fields": {
+            "create_date": "2021-12-23T14:12:00.943Z",
+            "update_date": "2021-12-23T14:12:00.943Z",
+            "lead": 3,
+            "status": 25,
+            "status_from": null,
+            "broker": 3,
+            "note": null,
+            "completed": false,
+            "active": true
+        }
+    },
+    {
+        "model": "core.deal",
+        "pk": 4,
+        "fields": {
+            "create_date": "2021-12-23T14:12:00.943Z",
+            "update_date": "2021-12-23T14:12:00.943Z",
+            "lead": 4,
+            "status": 25,
+            "status_from": null,
+            "broker": 4,
+            "note": null,
+            "completed": false,
+            "active": true
+        }
+    },
+    {
+        "model": "core.lender",
+        "pk": 1,
+        "fields": {
+            "name": "Accord"
+        }
+    },
+    {
+        "model": "core.lender",
+        "pk": 2,
+        "fields": {
+            "name": "Aldermore"
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "1",
+        "fields": {
+            "name": "AIG"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "1",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "2",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.dealproduct",
+        "pk": 1,
+        "fields": {
+            "create_date": "2021-12-06T22:03:57.074Z",
+            "update_date": "2021-12-06T22:03:57.074Z",
+            "product_type": 2,
+            "lender": 1,
+            "product": null,
+            "deal": 1,
+            "expiry_date": null,
+            "application_fee": 25.0,
+            "case_value_pending": 25.0,
+            "case_value_received": 50.0,
+            "gross_total_pending": 25.0,
+            "gross_total_received": 50.0,
+            "offer_completion_fee": 25.0,
+            "proc_fee": 25.0,
+            "received_application_fee": false,
+            "received_offer_completion_fee": true,
+            "received_proc_fee": true,
+            "message": "Test"
+        }
+    },
+    {
+        "model": "core.dealproduct",
+        "pk": 2,
+        "fields": {
+            "create_date": "2021-12-06T22:03:57.074Z",
+            "update_date": "2021-12-06T22:03:57.074Z",
+            "product_type": 2,
+            "lender": 2,
+            "product": null,
+            "deal": 2,
+            "expiry_date": null,
+            "application_fee": 25.0,
+            "case_value_pending": 25.0,
+            "case_value_received": 50.0,
+            "gross_total_pending": 25.0,
+            "gross_total_received": 50.0,
+            "offer_completion_fee": 25.0,
+            "proc_fee": 25.0,
+            "received_application_fee": false,
+            "received_offer_completion_fee": true,
+            "received_proc_fee": true,
+            "message": "Test"
+        }
+    },
+    {
+        "model": "core.dealproduct",
+        "pk": 3,
+        "fields": {
+            "create_date": "2021-12-09T13:15:17.797Z",
+            "update_date": "2021-12-09T13:15:17.797Z",
+            "product_type": 1,
+            "lender": null,
+            "product": 2,
+            "deal": 3,
+            "expiry_date": null,
+            "application_fee": 25.0,
+            "case_value_pending": 25.0,
+            "case_value_received": 1750.0,
+            "gross_total_pending": 25.0,
+            "gross_total_received": 1750.0,
+            "offer_completion_fee": 250.0,
+            "proc_fee": 1500.0,
+            "received_application_fee": false,
+            "received_offer_completion_fee": true,
+            "received_proc_fee": true,
+            "message": "Paid some"
+        }
+    },
+    {
+        "model": "core.dealproduct",
+        "pk": 4,
+        "fields": {
+            "create_date": "2021-12-09T13:15:17.797Z",
+            "update_date": "2021-12-09T13:15:17.797Z",
+            "product_type": 1,
+            "lender": null,
+            "product": 1,
+            "deal": 4,
+            "expiry_date": null,
+            "application_fee": 25.0,
+            "case_value_pending": 25.0,
+            "case_value_received": 1750.0,
+            "gross_total_pending": 25.0,
+            "gross_total_received": 1750.0,
+            "offer_completion_fee": 250.0,
+            "proc_fee": 1500.0,
+            "received_application_fee": false,
+            "received_offer_completion_fee": true,
+            "received_proc_fee": true,
+            "message": "Paid some"
+        }
+    }
+]

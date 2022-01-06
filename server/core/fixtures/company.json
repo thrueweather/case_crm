@@ -1,0 +1,79 @@
+[
+  {
+    "model": "accounts.company",
+    "pk": "1",
+    "fields": {
+      "name": "LCS Mortgages"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "2",
+    "fields": {
+      "name": "GS Brokers"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "3",
+    "fields": {
+      "name": "Option Finance"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "4",
+    "fields": {
+      "name": "Gentian Test"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "5",
+    "fields": {
+      "name": "David Org"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "6",
+    "fields": {
+      "name": "Finance Advice Centre"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "7",
+    "fields": {
+      "name": "94 Mortgages"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "8",
+    "fields": {
+      "name": "Lee Chiswell  Finance Advice Centre"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "9",
+    "fields": {
+      "name": "Create Finance"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "10",
+    "fields": {
+      "name": "Tenet"
+    }
+  },
+  {
+    "model": "accounts.company",
+    "pk": "11",
+    "fields": {
+      "name": "Expert Money"
+    }
+  }
+]

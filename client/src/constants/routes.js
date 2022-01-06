@@ -1,0 +1,9 @@
+export const SIGN_IN = '/sign-in';
+export const DASHBOARD = '/';
+export const LEADS = '/leads';
+export const CASES = '/cases';
+export const REPORTS = '/reports';
+export const PROFILE = '/profile';
+export const DEAL = '/cases/:id';
+export const NOTIFICATIONS = '/notifications';
+export const TASKS = '/tasks';

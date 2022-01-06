@@ -1,0 +1,872 @@
+[
+    {
+        "model": "core.provider",
+        "pk": "1",
+        "fields": {
+            "name": "AIG"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "1",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "2",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "3",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "4",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "5",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "6",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "7",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "8",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 1
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "2",
+        "fields": {
+            "name": "Aviva"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "9",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "10",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "11",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "12",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "13",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "14",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "15",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "16",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 2
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "3",
+        "fields": {
+            "name": "Guardian"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "17",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "18",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "19",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "20",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "21",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "22",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "23",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "24",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 3
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "4",
+        "fields": {
+            "name": "Legal & General"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "25",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "26",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "27",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "28",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "29",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "30",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "31",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "32",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 4
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "5",
+        "fields": {
+            "name": "LV"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "33",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "34",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "35",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "36",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "37",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "38",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "39",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "40",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 5
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "6",
+        "fields": {
+            "name": "Royal London"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "41",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "42",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "43",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "44",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "45",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "46",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "47",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "48",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 6
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "7",
+        "fields": {
+            "name": "Scottish Widows"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "49",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "50",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "51",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "52",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "53",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "54",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "55",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "56",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 7
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "8",
+        "fields": {
+            "name": "Scottish Widows"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "57",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "58",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "59",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "60",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "61",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "62",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "63",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "64",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 8
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "9",
+        "fields": {
+            "name": "Vitality"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "65",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "66",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "67",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "68",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "69",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "70",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "71",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "72",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 9
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": "10",
+        "fields": {
+            "name": "Zurich"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "73",
+        "fields": {
+            "name": "Accident sickness and unemployment",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "74",
+        "fields": {
+            "name": "Buildings and contents",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "75",
+        "fields": {
+            "name": "Family income benefit",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "76",
+        "fields": {
+            "name": "Income Protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "77",
+        "fields": {
+            "name": "Life & Critical illness",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "78",
+        "fields": {
+            "name": "Life only",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "79",
+        "fields": {
+            "name": "Relevant life business protection",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": "80",
+        "fields": {
+            "name": "Whole of life cover",
+            "create_date": "2021-11-11T13:51:05.148Z",
+            "update_date": "2021-11-11T13:51:05.148Z",
+            "provider": 10
+        }
+    }
+]

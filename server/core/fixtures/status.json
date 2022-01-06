@@ -1,0 +1,252 @@
+[
+    {
+        "model": "core.status",
+        "pk": 1,
+        "fields": {
+            "name": "FCR - Client not ready (schedule)",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 2,
+        "fields": {
+            "name": "FCR - Unable to help",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 3,
+        "fields": {
+            "name": "Application Fee Made",
+            "status_type": [
+                "1"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 4,
+        "fields": {
+            "name": "Contact made - Awaiting docs",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 5,
+        "fields": {
+            "name": "Contact made -Meeting scheduled",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 6,
+        "fields": {
+            "name": "Insurance application submitted",
+            "status_type": [
+                "1",
+                "6"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 7,
+        "fields": {
+            "name": "Mortgage application submitted",
+            "status_type": [
+                "1"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 8,
+        "fields": {
+            "name": "Referred to 3rd Party",
+            "status_type": [
+                "3",
+                "4"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 9,
+        "fields": {
+            "name": "Client proceeding",
+            "status_type": [
+                "3"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 10,
+        "fields": {
+            "name": "Contact attempt 1",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 11,
+        "fields": {
+            "name": "Contact attempt 2",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 12,
+        "fields": {
+            "name": "Contact attempt 3",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 13,
+        "fields": {
+            "name": "Contact made - Factfind complete",
+            "status_type": [
+                "3"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 14,
+        "fields": {
+            "name": "Invalid number",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 15,
+        "fields": {
+            "name": "No sale - Declined to pay fee",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 16,
+        "fields": {
+            "name": "No sale - No further contact requested",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 17,
+        "fields": {
+            "name": "No sale - Went AWOL",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 18,
+        "fields": {
+            "name": "No sale - Went elsewhere",
+            "status_type": [
+                "2"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 19,
+        "fields": {
+            "name": "Sale made - AIP approved",
+            "status_type": [
+                "1"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 20,
+        "fields": {
+            "name": "Sale made - Full application",
+            "status_type": [
+                "1"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 21,
+        "fields": {
+            "name": "Sale made - Mortgage completed",
+            "status_type": [
+                "1",
+                "5"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 22,
+        "fields": {
+            "name": "Sale made - Mortgage offered",
+            "status_type": [
+                "1"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 23,
+        "fields": {
+            "name": "Documents recieved",
+            "status_type": [
+                "3"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 24,
+        "fields": {
+            "name": "Check my file",
+            "status_type": [
+                "3"
+            ]
+        }
+    },
+    {
+        "model": "core.status",
+        "pk": 25,
+        "fields": {
+            "name": "Customer Contact #1"
+        }
+    }
+]

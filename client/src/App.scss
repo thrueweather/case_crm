@@ -1,0 +1,65 @@
+@import './styles/variables.scss';
+
+.react-datepicker__tab-loop {
+    top: 10px;
+    left: 0;
+}
+
+.react-datepicker-wrapper {
+    width: auto !important;
+    position: relative;
+}
+
+.react-datepicker-wrapper input {
+    padding: 18px 10px;
+    border: 1px solid #b5b4b4;
+    border-radius: 4px;
+    font-size: 16px;
+    background: transparent;
+    width: 228px;
+}
+
+
+.react-datepicker-wrapper .validate-error {
+    border: 1px solid $error-color;
+}
+
+.react-datepicker-wrapper .validate-error::placeholder {
+    color: $error-color;
+}
+
+.mobile-phone {
+    width: 100%;
+    padding: 18px 12px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.mobile-phone input {
+    border: none;
+    font-size: 16px;
+}
+
+.mobile-phone input:focus {
+    outline: none;
+}
+
+.mobile-phone.validate-error {
+    border: 1px solid $error-color;
+}
+.mobile-phone.validate-error > input {
+    color: $error-color;
+}
+
+.react-datepicker__year-wrapper{
+    justify-content: center;
+}
+
+.react-datepicker__close-icon{
+    position: absolute;
+    right: 0;
+}
+
+.datepicker__disabled{
+opacity: 0.5;
+}
